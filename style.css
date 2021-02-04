@@ -8,11 +8,33 @@ html {
 }
 body {
     align-items: center;
+    background-color:lightblue;
     display: flex;
-    font-family: 'Roboto', 'sans-serif';
-    flex-direction: column;
+    font-family: 'Poppins', 'sans-serif';
+    flex-wrap: wrap;
     justify-content: center;
     height: 100vh;
     margin: 0;
     overflow: hidden;
+    text-align: center;
+}
+
+.btn {
+    background-color: lightskyblue;
+    border-radius: 0.5rem;
+    border: none;
+    color: blue;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-family: inherit;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn:focus {
+    outline: none;
 }
